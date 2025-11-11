@@ -32,7 +32,13 @@ Our implementation adds a Python wrapper that:
 - Python 3.7+
 - [texmath](https://github.com/jgm/texmath) installed and available at `~/.local/bin/texmath`
 
-### Install texmath (Haskell)
+### 1. Clone the repository
+```bash
+git clone https://github.com/yeewantung/tex_math_to_word.git
+cd tex_math_to_word
+```
+
+### 2. Install texmath (Haskell)
 Follow the installation instructions at https://github.com/jgm/texmath. On macOS with Homebrew:
 ```bash
 brew install texmath
@@ -43,7 +49,7 @@ Or install from Hackage:
 cabal install texmath --install-method=copy --installdir ~/.local/bin
 ```
 
-### Install Python dependencies
+### 3. Install Python dependencies
 ```bash
 pip install -r requirements.txt
 ```
